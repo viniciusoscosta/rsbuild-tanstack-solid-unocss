@@ -1,5 +1,5 @@
 {
-	"name": "drag-on-drop",
+	"name": "frontend-boilerplate",
 	"module": "index.ts",
 	"type": "module",
 	"private": true,
