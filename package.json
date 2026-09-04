@@ -1,0 +1,45 @@
+{
+	"name": "drag-on-drop",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "rsbuild",
+		"build": "rsbuild build",
+		"preview": "rsbuild preview"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.12",
+		"@rsbuild/core": "^2.2.3",
+		"@rsbuild/plugin-babel": "^2.1.0",
+		"@rsbuild/plugin-solid": "^1.2.2",
+		"@tanstack/router-plugin": "^1.168.35",
+		"@tanstack/solid-devtools": "^0.8.12",
+		"@types/bun": "^1.4.0",
+		"@unocss/postcss": "^66.9.2",
+		"@unocss/preset-attributify": "^66.9.2",
+		"@unocss/preset-icons": "^66.9.2",
+		"@unocss/preset-typography": "^66.9.2",
+		"@unocss/preset-web-fonts": "^66.9.2",
+		"@unocss/preset-wind4": "^66.9.2",
+		"@unocss/transformer-directives": "^66.9.2",
+		"@unocss/transformer-variant-group": "^66.9.2",
+		"unocss": "^66.9.2",
+		"unocss-preset-primitives": "^0.0.2-beta.2"
+	},
+	"peerDependencies": {
+		"typescript": "^7"
+	},
+	"dependencies": {
+		"@kobalte/core": "^0.13.13",
+		"@tanstack/solid-form": "^1.33.5",
+		"@tanstack/solid-form-devtools": "^0.2.34",
+		"@tanstack/solid-query": "^5.102.8",
+		"@tanstack/solid-query-devtools": "^5.102.8",
+		"@tanstack/solid-router": "^1.170.30",
+		"@tanstack/solid-router-devtools": "^1.167.1",
+		"class-variance-authority": "^0.7.1",
+		"solid-js": "^1.9.15",
+		"srvx": "^1.0.2"
+	}
+}
